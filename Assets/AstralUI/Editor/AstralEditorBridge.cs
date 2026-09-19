@@ -31,6 +31,7 @@ namespace AstralUI.Editor
                 else if(command=="play"){SetGameSize(1600,800);EditorApplication.isPlaying=true;}
                 else if(command=="stop")EditorApplication.isPlaying=false;
                 else if(command=="refresh")AssetDatabase.Refresh();
+                else if(command=="video-fix")AstralVideoFixer.Fix();
                 else if(command=="frame-anim")AstralFrameAnimationTool.Build();
                 else if(command.StartsWith("page:")){AstralApp.Instance.Navigate(int.Parse(command.Substring(5)));}
                 else if(command.StartsWith("click:")){AstralApp.Instance.Node(command.Substring(6)).GetComponent<Button>().onClick.Invoke();}
