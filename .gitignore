@@ -1,0 +1,39 @@
+# Unity/团结引擎生成目录（运行时/缓存，不入库）
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Cc]rashReports/
+MemoryCaptures/
+Recordings/
+
+# 构建产物与本地工具缓存
+.art-tools/
+.DS_Store
+*.csproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.suo
+*.stackdump
+sysinfo.txt
+*.log
+
+# IDE
+.vs/
+.idea/
+.vscode/
+
+# Plastic SCM 元数据（改用 Git 托管）
+.plastic/
+ignore.conf
+
+# QA 产物（截图/测试日志，可随时重新生成）
+Documentation/
+
+# 大体积中间源文件如需入库请手动移除下行
+# ArtSource/

@@ -1,0 +1,364 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857abf43672ad4f6eaf8fdab68b5d962, type: 3}
+  m_Name: AstralCatalog
+  m_EditorClassIdentifier: 
+  font: {fileID: 12800000, guid: 1f26c0a28764d44b68c388ef1fdac508, type: 3}
+  art:
+  - {fileID: 21300000, guid: 0b345c6ee0a9c498e9cb5e753256caaf, type: 3}
+  - {fileID: 21300000, guid: 42986be7f37a548ba85eac8a6cd23ea0, type: 3}
+  - {fileID: 21300000, guid: a3aaef54ae7874b5c97d7912b3942354, type: 3}
+  - {fileID: 21300000, guid: aeeb58d62bc2b40939e08208aa1d6734, type: 3}
+  - {fileID: 21300000, guid: cb7d855f85f884275b28f44af0b6de19, type: 3}
+  - {fileID: 21300000, guid: b45cbf26049bf437db189474785181ae, type: 3}
+  - {fileID: 21300000, guid: 112465985a8734a44af32dfddbd8ce4f, type: 3}
+  - {fileID: 21300000, guid: f3901a4a167cd4736a828d233cbe18f8, type: 3}
+  - {fileID: 21300000, guid: 94db4d522958a4668b74b21037b26edb, type: 3}
+  - {fileID: 21300000, guid: 022ca032998e649ad8a376f062a5b313, type: 3}
+  - {fileID: 21300000, guid: ae66783fa9b0a484daae0c8b49d2fcf5, type: 3}
+  - {fileID: 21300000, guid: ca82e516fd0024fa8a7110add7d6c633, type: 3}
+  - {fileID: 21300000, guid: 686da97556e164c50bd5587bf1ed9cd2, type: 3}
+  - {fileID: 21300000, guid: 97748154cc0b54b73a7808b2a324ce80, type: 3}
+  - {fileID: 21300000, guid: 87da0fb2e7081410593bc130b7f86556, type: 3}
+  - {fileID: 21300000, guid: 699c0bd19f2ce41778574bb17fae930a, type: 3}
+  - {fileID: 21300000, guid: b082da71d73a74861896d3a22734907c, type: 3}
+  - {fileID: 21300000, guid: 37f4c2286f4eb4448b8f43dade540741, type: 3}
+  - {fileID: 21300000, guid: b878c704848c34945ac66c10dcdb1650, type: 3}
+  - {fileID: 21300000, guid: 89d140419459c45b196de8e32ebd456d, type: 3}
+  - {fileID: 21300000, guid: a1d1648484d4b4436a427057e7ac989a, type: 3}
+  - {fileID: 21300000, guid: fc72031f9150b4ab1b5aa1e65150cf29, type: 3}
+  - {fileID: 21300000, guid: 823a97661b48a483d9dfc5d310428118, type: 3}
+  - {fileID: 21300000, guid: ef3f3279f604b4408a0790a9c41cc352, type: 3}
+  - {fileID: 21300000, guid: d541ac4a26539484cab9db8d1fbe0fd7, type: 3}
+  - {fileID: 21300000, guid: db028f690b1414c86ab0c851800b35e7, type: 3}
+  - {fileID: 21300000, guid: 5507dc9613a7e487587e0ba346915dc2, type: 3}
+  - {fileID: 21300000, guid: 16ab1ee4d3fc6496f8fc287cd44fb471, type: 3}
+  - {fileID: 21300000, guid: 8984994d3a5644d81a8408e1960a68eb, type: 3}
+  - {fileID: 21300000, guid: 175ca788a89754f88ab3f9d71e126e83, type: 3}
+  - {fileID: 21300000, guid: aaa3152e74d0e4d2387ee19a3acc3548, type: 3}
+  - {fileID: 21300000, guid: 1d00dee60b18d4a06ba71bdb58878f23, type: 3}
+  - {fileID: 21300000, guid: 4da67b6e1c4e8438ebcf6eec50456e82, type: 3}
+  - {fileID: 21300000, guid: c14f030b4c47e46f98410150646d66bd, type: 3}
+  - {fileID: 21300000, guid: ef4ea698457cd4b0e9b60bcbbc3d8da8, type: 3}
+  - {fileID: 21300000, guid: 8a1e288c3cdf94fa48a5a187f2ada032, type: 3}
+  - {fileID: 21300000, guid: 619298c21e5bf40ecae2d68ee0ae987a, type: 3}
+  - {fileID: 21300000, guid: b9e2c051a45db4f33a6a2dd6b4005577, type: 3}
+  - {fileID: 21300000, guid: 68f56dfdde9c3478faddcb8828e122bd, type: 3}
+  - {fileID: 21300000, guid: a39524433adb04111b0c1d3b76b5407a, type: 3}
+  - {fileID: 21300000, guid: 705001930d5a94b2591cad0a14a7a013, type: 3}
+  - {fileID: 21300000, guid: fcff09f49c62d4505b633712fd512494, type: 3}
+  - {fileID: 21300000, guid: 26762848adebd477faf1dec38048d98b, type: 3}
+  - {fileID: 21300000, guid: 27f4684a8417e459494c93092c557f69, type: 3}
+  - {fileID: 21300000, guid: 0318c7a2c5c8b4b0dabf3b375a2313fc, type: 3}
+  - {fileID: 21300000, guid: c1050e882d0154062a33a525206c288e, type: 3}
+  - {fileID: 21300000, guid: 11b1588c6519a437dbb0860748d24d75, type: 3}
+  - {fileID: 21300000, guid: bcab1dd9b42aa4c73b876a29d1cb7e35, type: 3}
+  - {fileID: 21300000, guid: 7328f4da73b284afcb390a9dd561d3f4, type: 3}
+  - {fileID: 21300000, guid: d6d35d710567b4a9e8dc191ff00b0d43, type: 3}
+  - {fileID: 21300000, guid: 2d88bcc7128c842b6a2d6b74a0309a02, type: 3}
+  - {fileID: 21300000, guid: 78b9061323b2d499585113c493fb0030, type: 3}
+  - {fileID: 21300000, guid: 50b77ea1081f34153808db5b418ccabf, type: 3}
+  - {fileID: 21300000, guid: 3134526b28dab4011b9e507bb118ca8f, type: 3}
+  - {fileID: 21300000, guid: bddbda7fbb9154300aa1fc549265118a, type: 3}
+  - {fileID: 21300000, guid: 64c0cd6c438aa4173a718b560404fea6, type: 3}
+  - {fileID: 21300000, guid: ea9669c6566714af79f323e2bc4ff4d1, type: 3}
+  - {fileID: 21300000, guid: f072b7eb670e0425e82f8f5d8253deec, type: 3}
+  - {fileID: 21300000, guid: f4be952b141584dc1bc55a748f228d21, type: 3}
+  - {fileID: 21300000, guid: 46e0bc9b13c774b8189a4a1ce34b864c, type: 3}
+  - {fileID: 21300000, guid: ce624bf2ee0e740189fae94405c95c0d, type: 3}
+  - {fileID: 21300000, guid: b2684867c3226403ca4b82d1419b722d, type: 3}
+  - {fileID: 21300000, guid: 55a550fc8cc3e4d6cb7d6051a7c42f93, type: 3}
+  - {fileID: 21300000, guid: 65656a61113fa4fca831fccfdf21e94f, type: 3}
+  - {fileID: 21300000, guid: 2a0d6766c865f4928a25e317e411524c, type: 3}
+  - {fileID: 21300000, guid: da35e917251ab4411b028f0eff38d2db, type: 3}
+  - {fileID: 21300000, guid: 905fb0912943442e4989ed22cdbd14f9, type: 3}
+  - {fileID: 21300000, guid: 3fae0b5148ba347619a8a0a0a13f77cc, type: 3}
+  - {fileID: 21300000, guid: 3614f47f75e9f42d5809d3c04a72ea36, type: 3}
+  - {fileID: 21300000, guid: db75152dccaad468f99c48abb45a7ed2, type: 3}
+  - {fileID: 21300000, guid: 35b7e89a873dc4af29dc309b3453ed00, type: 3}
+  - {fileID: 21300000, guid: a56d6b89937cb481592a193a7152f1f0, type: 3}
+  - {fileID: 21300000, guid: cb8a8682978b14f5e9b7429ffb59f53f, type: 3}
+  - {fileID: 21300000, guid: 19d39168a86e147c5868d93843f18f91, type: 3}
+  - {fileID: 21300000, guid: 9fb6d9ba543c7477489039c077d078a8, type: 3}
+  - {fileID: 21300000, guid: 94eb831b1212349ecb82514a1260ea4d, type: 3}
+  - {fileID: 21300000, guid: fe25de68d20f44e24a2f7bcd4d0c093c, type: 3}
+  - {fileID: 21300000, guid: 63efa6f049c96428e8f8639fda64ab1b, type: 3}
+  - {fileID: 21300000, guid: 4ae3bc11490804510802966fabcfd91c, type: 3}
+  - {fileID: 21300000, guid: 08fcb7bdbb273463ca3967d80a04b1a0, type: 3}
+  - {fileID: 21300000, guid: 56ef5adc2e1dd46debd7dc948905bbd3, type: 3}
+  - {fileID: 21300000, guid: f673c1acbf76244cbae7224255dd7a23, type: 3}
+  - {fileID: 21300000, guid: 98bc3c0867dd740db83c883870c25089, type: 3}
+  - {fileID: 21300000, guid: e37ed9adb605b40e597b21fcf4b62223, type: 3}
+  - {fileID: 21300000, guid: ece3b5a4f3f79456ebdaac862f5819be, type: 3}
+  - {fileID: 21300000, guid: dc576de4caf3e4888b1658eeb20e0973, type: 3}
+  - {fileID: 21300000, guid: de0f31e2bf30e4101898f5fc99ae0eca, type: 3}
+  - {fileID: 21300000, guid: a062f85a20a774561b61152d95290a4b, type: 3}
+  - {fileID: 21300000, guid: 2ca61093f4cc94505966661355b1b17b, type: 3}
+  - {fileID: 21300000, guid: ca2e996d29969414f873be606c7ed20f, type: 3}
+  - {fileID: 21300000, guid: 8367782621f8b48feb3761b1b9d0e19e, type: 3}
+  - {fileID: 21300000, guid: c3bc597fe36434259a0651b78a406fa4, type: 3}
+  - {fileID: 21300000, guid: 28e2886d90b5e4b1eb782b0a98477700, type: 3}
+  - {fileID: 21300000, guid: 9e1db107913194e41b9bd154f6d8efb9, type: 3}
+  - {fileID: 21300000, guid: 0da3f5e75faa24262ae751eae94145fc, type: 3}
+  - {fileID: 21300000, guid: 90a8a9e4c2dda4751b4c779557b92b5a, type: 3}
+  - {fileID: 21300000, guid: b307f490ce45e4e4a994a45e8b4abf74, type: 3}
+  - {fileID: 21300000, guid: a7a41f96790114e6fb0dc37ccc9229ba, type: 3}
+  - {fileID: 21300000, guid: 63447fb037852498ba3298de7d776c32, type: 3}
+  - {fileID: 21300000, guid: a113ec358c2254bfa9c89afe25a5c45a, type: 3}
+  - {fileID: 21300000, guid: 4a6b9b1a7911349ef996503340a4fa36, type: 3}
+  - {fileID: 21300000, guid: 0d06e8ac2c03743729ccff23d026be2c, type: 3}
+  - {fileID: 21300000, guid: b08640e31c69e48d0a0e04191107aaba, type: 3}
+  - {fileID: 21300000, guid: 8488a0b30fc3b4692b2e9076e4f07e94, type: 3}
+  - {fileID: 21300000, guid: bed188f810ed64fdaaed22d5b214e74b, type: 3}
+  characters:
+  - name: "\u661F\u7483"
+    english: SEIRI
+    id: seiri
+    element: "\u865A\u7A7A / \u5F3A\u88AD"
+    quote: "\u5728\u65E0\u6570\u6B21\u7684\u8F6E\u56DE\u91CC\uFF0C\n\u6BCF\u4E00\u523B\u90FD\u8BB0\u5F97\u4F60\u7684\u540D\u5B57\u3002"
+    skill: "\u661F\u754C\u88C1\u51B3"
+    talent: "\u547D\u8FD0\u56DE\u54CD"
+    hp: 4876
+    attack: 1280
+    defense: 692
+    accent: {r: 0.71, g: 0.42, b: 1, a: 1}
+  - name: "\u6C50\u97F3"
+    english: SHION
+    id: miku
+    element: "\u6D41\u98CE / \u8F85\u52A9"
+    quote: "\u5FAA\u7740\u98CE\u7684\u58F0\u97F3\uFF0C\n\u6211\u4EEC\u7EC8\u4F1A\u518D\u5EA6\u76F8\u9022\u3002"
+    skill: "\u78A7\u6D77\u9E23\u594F"
+    talent: "\u98CE\u7684\u7737\u987E"
+    hp: 4250
+    attack: 1060
+    defense: 780
+    accent: {r: 0.21, g: 0.85, b: 0.82, a: 1}
+  - name: "\u6708\u767D"
+    english: LUNA
+    id: luna
+    element: "\u971C\u534E / \u672F\u5E08"
+    quote: "\u613F\u8FD9\u7247\u661F\u6D77\uFF0C\n\u66FF\u4F60\u6536\u85CF\u6240\u6709\u6E29\u67D4\u3002"
+    skill: "\u6C38\u591C\u661F\u5178"
+    talent: "\u6708\u4E4B\u795D\u798F"
+    hp: 3980
+    attack: 1492
+    defense: 604
+    accent: {r: 0.54, g: 0.73, b: 1, a: 1}
+  - name: "\u7EEF\u70EC"
+    english: EMBER
+    id: ember
+    element: "\u70C8\u7130 / \u5148\u950B"
+    quote: "\u5373\u4F7F\u4E16\u754C\u53EA\u5269\u7070\u70EC\uFF0C\n\u6211\u4E5F\u4F1A\u4E3A\u4F60\u71C3\u8D77\u9ECE\u660E\u3002"
+    skill: "\u8D64\u7130\u65AD\u7A7A"
+    talent: "\u4E0D\u706D\u4F59\u70EC"
+    hp: 5280
+    attack: 1345
+    defense: 718
+    accent: {r: 1, g: 0.32, b: 0.43, a: 1}
+  - name: "\u9701\u7FBD"
+    english: JIYE
+    id: jiye
+    element: "\u66E6\u5149 / \u6E38\u4FA0"
+    quote: "\u957F\u591C\u7EC8\u6709\u5C3D\u5934\uFF0C\n\u6211\u4F1A\u4E3A\u4F60\u7559\u4F4F\u7B2C\u4E00\u7F15\u6668\u5149\u3002"
+    skill: "\u6668\u661F\u9010\u7FBD"
+    talent: "\u9ECE\u660E\u8A93\u8A00"
+    hp: 4320
+    attack: 1428
+    defense: 635
+    accent: {r: 1, g: 0.83, b: 0.47, a: 1}
+  - name: "\u9E22\u591C"
+    english: YAYA
+    id: yaya
+    element: "\u865A\u7A7A / \u661F\u672F\u5E08"
+    quote: "\u7FA4\u661F\u4ECE\u4E0D\u8BF4\u8C0E\uFF0C\n\u800C\u6211\u613F\u610F\u76F8\u4FE1\u4F60\u7684\u7B54\u6848\u3002"
+    skill: "\u661F\u4EEA\u5BC2\u706D"
+    talent: "\u6C38\u591C\u89C2\u6D4B"
+    hp: 4068
+    attack: 1516
+    defense: 612
+    accent: {r: 0.72, g: 0.43, b: 1, a: 1}
+  - name: "\u82CD\u5C9A"
+    english: CANGLAN
+    id: canglan
+    element: "\u5BD2\u971C / \u5251\u536B"
+    quote: "\u98CE\u96EA\u4F1A\u8BB0\u4F4F\u6765\u8DEF\uFF0C\n\u6211\u7684\u5251\u4F1A\u5B88\u4F4F\u4F60\u7684\u5F52\u9014\u3002"
+    skill: "\u971C\u950B\u65AD\u6D41"
+    talent: "\u4E0D\u52A8\u5BD2\u5FC3"
+    hp: 5620
+    attack: 1260
+    defense: 856
+    accent: {r: 0.4, g: 0.74, b: 1, a: 1}
+  - name: "\u66DC\u8FB0"
+    english: YAOCHEN
+    id: yaochen
+    element: "\u70C8\u9633 / \u5B88\u62A4"
+    quote: "\u7AD9\u5230\u6211\u8EAB\u540E\uFF0C\n\u8BA9\u9ECE\u660E\u66FF\u6211\u4EEC\u7ED3\u675F\u8FD9\u573A\u957F\u591C\u3002"
+    skill: "\u66DC\u65E5\u8D2F\u661F"
+    talent: "\u70BD\u9633\u58C1\u5792"
+    hp: 6180
+    attack: 1178
+    defense: 924
+    accent: {r: 1, g: 0.7, b: 0.26, a: 1}
+  equipment:
+  - name: "\u865A\u7A7A\u88C1\u51B3"
+    id: equipment_00
+    type: "\u6B66\u5668"
+    skill: "\u865A\u7A7A\u4E4B\u529B"
+    description: "\u9020\u6210\u4F24\u5BB3\u65F6\uFF0C\u6709 20% \u6982\u7387\u89E6\u53D1\u865A\u7A7A\u65A9\u51FB\uFF0C\n\u5BF9\u76EE\u6807\u9020\u6210
+      150% \u653B\u51FB\u529B\u7684\u989D\u5916\u4F24\u5BB3\u3002\n\uFF08\u51B7\u5374
+      8 \u79D2\uFF09"
+    attack: 695
+    rarity: 5
+    crit: 12
+    critDamage: 36
+  - name: "\u6668\u66E6\u8A93\u7EA6"
+    id: equipment_01
+    type: "\u6B66\u5668"
+    skill: "\u661F\u80FD\u5171\u9E23"
+    description: "\u547D\u4E2D\u6709 20% \u6982\u7387\u8FFD\u52A0 80% \u653B\u51FB\u4F24\u5BB3\uFF088
+      \u79D2\u51B7\u5374\uFF09\u3002\n\u7EC8\u7ED3\u6280\u83B7\u5F97 12% \u6700\u5927\u751F\u547D\u62A4\u76FE\uFF0C\u6301\u7EED
+      6 \u79D2\u3002"
+    attack: 674
+    rarity: 4
+    crit: 13
+    critDamage: 38
+  - name: "\u971C\u6708\u6D41\u5149"
+    id: equipment_02
+    type: "\u6B66\u5668"
+    skill: "\u661F\u80FD\u5171\u9E23"
+    description: "\u547D\u4E2D\u6709 20% \u6982\u7387\u8FFD\u52A0 80% \u653B\u51FB\u4F24\u5BB3\uFF088
+      \u79D2\u51B7\u5374\uFF09\u3002\n\u7EC8\u7ED3\u6280\u83B7\u5F97 12% \u6700\u5927\u751F\u547D\u62A4\u76FE\uFF0C\u6301\u7EED
+      6 \u79D2\u3002"
+    attack: 653
+    rarity: 4
+    crit: 14
+    critDamage: 40
+  - name: "\u8D64\u591C\u7EC8\u7109"
+    id: equipment_03
+    type: "\u6B66\u5668"
+    skill: "\u661F\u80FD\u5171\u9E23"
+    description: "\u547D\u4E2D\u6709 20% \u6982\u7387\u8FFD\u52A0 80% \u653B\u51FB\u4F24\u5BB3\uFF088
+      \u79D2\u51B7\u5374\uFF09\u3002\n\u7EC8\u7ED3\u6280\u83B7\u5F97 12% \u6700\u5927\u751F\u547D\u62A4\u76FE\uFF0C\u6301\u7EED
+      6 \u79D2\u3002"
+    attack: 632
+    rarity: 5
+    crit: 15
+    critDamage: 42
+  - name: "\u5929\u7A79\u4E4B\u7FFC"
+    id: equipment_04
+    type: "\u6B66\u5668"
+    skill: "\u661F\u80FD\u5171\u9E23"
+    description: "\u547D\u4E2D\u6709 20% \u6982\u7387\u8FFD\u52A0 80% \u653B\u51FB\u4F24\u5BB3\uFF088
+      \u79D2\u51B7\u5374\uFF09\u3002\n\u7EC8\u7ED3\u6280\u83B7\u5F97 12% \u6700\u5927\u751F\u547D\u62A4\u76FE\uFF0C\u6301\u7EED
+      6 \u79D2\u3002"
+    attack: 611
+    rarity: 4
+    crit: 12
+    critDamage: 44
+  - name: "\u6F6E\u6C50\u53CC\u5203"
+    id: equipment_05
+    type: "\u6B66\u5668"
+    skill: "\u661F\u80FD\u5171\u9E23"
+    description: "\u547D\u4E2D\u6709 20% \u6982\u7387\u8FFD\u52A0 80% \u653B\u51FB\u4F24\u5BB3\uFF088
+      \u79D2\u51B7\u5374\uFF09\u3002\n\u7EC8\u7ED3\u6280\u83B7\u5F97 12% \u6700\u5927\u751F\u547D\u62A4\u76FE\uFF0C\u6301\u7EED
+      6 \u79D2\u3002"
+    attack: 590
+    rarity: 4
+    crit: 13
+    critDamage: 46
+  - name: "\u865A\u754C\u4E4B\u6838"
+    id: equipment_06
+    type: "\u5723\u9057\u7269"
+    skill: "\u661F\u80FD\u5171\u9E23"
+    description: "\u547D\u4E2D\u6709 20% \u6982\u7387\u8FFD\u52A0 80% \u653B\u51FB\u4F24\u5BB3\uFF088
+      \u79D2\u51B7\u5374\uFF09\u3002\n\u7EC8\u7ED3\u6280\u83B7\u5F97 12% \u6700\u5927\u751F\u547D\u62A4\u76FE\uFF0C\u6301\u7EED
+      6 \u79D2\u3002"
+    attack: 569
+    rarity: 5
+    crit: 14
+    critDamage: 48
+  - name: "\u65E5\u8F6E\u5723\u73AF"
+    id: equipment_07
+    type: "\u5723\u9057\u7269"
+    skill: "\u661F\u80FD\u5171\u9E23"
+    description: "\u547D\u4E2D\u6709 20% \u6982\u7387\u8FFD\u52A0 80% \u653B\u51FB\u4F24\u5BB3\uFF088
+      \u79D2\u51B7\u5374\uFF09\u3002\n\u7EC8\u7ED3\u6280\u83B7\u5F97 12% \u6700\u5927\u751F\u547D\u62A4\u76FE\uFF0C\u6301\u7EED
+      6 \u79D2\u3002"
+    attack: 548
+    rarity: 4
+    crit: 15
+    critDamage: 50
+  - name: "\u8680\u661F\u4E4B\u63E1"
+    id: equipment_08
+    type: "\u88C5\u7532"
+    skill: "\u661F\u80FD\u5171\u9E23"
+    description: "\u547D\u4E2D\u6709 20% \u6982\u7387\u8FFD\u52A0 80% \u653B\u51FB\u4F24\u5BB3\uFF088
+      \u79D2\u51B7\u5374\uFF09\u3002\n\u7EC8\u7ED3\u6280\u83B7\u5F97 12% \u6700\u5927\u751F\u547D\u62A4\u76FE\uFF0C\u6301\u7EED
+      6 \u79D2\u3002"
+    attack: 527
+    rarity: 4
+    crit: 12
+    critDamage: 52
+  - name: "\u7EC8\u591C\u9570\u5F71"
+    id: equipment_09
+    type: "\u6B66\u5668"
+    skill: "\u661F\u80FD\u5171\u9E23"
+    description: "\u547D\u4E2D\u6709 20% \u6982\u7387\u8FFD\u52A0 80% \u653B\u51FB\u4F24\u5BB3\uFF088
+      \u79D2\u51B7\u5374\uFF09\u3002\n\u7EC8\u7ED3\u6280\u83B7\u5F97 12% \u6700\u5927\u751F\u547D\u62A4\u76FE\uFF0C\u6301\u7EED
+      6 \u79D2\u3002"
+    attack: 506
+    rarity: 5
+    crit: 13
+    critDamage: 54
+  - name: "\u6708\u548F\u661F\u6756"
+    id: equipment_10
+    type: "\u6B66\u5668"
+    skill: "\u661F\u80FD\u5171\u9E23"
+    description: "\u547D\u4E2D\u6709 20% \u6982\u7387\u8FFD\u52A0 80% \u653B\u51FB\u4F24\u5BB3\uFF088
+      \u79D2\u51B7\u5374\uFF09\u3002\n\u7EC8\u7ED3\u6280\u83B7\u5F97 12% \u6700\u5927\u751F\u547D\u62A4\u76FE\uFF0C\u6301\u7EED
+      6 \u79D2\u3002"
+    attack: 485
+    rarity: 4
+    crit: 14
+    critDamage: 56
+  - name: "\u711A\u5929\u58C1\u5792"
+    id: equipment_11
+    type: "\u88C5\u7532"
+    skill: "\u661F\u80FD\u5171\u9E23"
+    description: "\u547D\u4E2D\u6709 20% \u6982\u7387\u8FFD\u52A0 80% \u653B\u51FB\u4F24\u5BB3\uFF088
+      \u79D2\u51B7\u5374\uFF09\u3002\n\u7EC8\u7ED3\u6280\u83B7\u5F97 12% \u6700\u5927\u751F\u547D\u62A4\u76FE\uFF0C\u6301\u7EED
+      6 \u79D2\u3002"
+    attack: 464
+    rarity: 4
+    crit: 15
+    critDamage: 58
+  chapters:
+  - name: "\u827E\u5C14\u5E9F\u589F"
+    english: AEIR RUINS
+    background: background_ruins
+    description: "\u66FE\u7ECF\u7E41\u8363\u7684\u5929\u7A7A\u90FD\u5E02\uFF0C\u5982\u4ECA\u53EA\u5269\u6B8B\u57A3\u3002\n\u5728\u7834\u788E\u7684\u5149\u5F71\u4E2D\uFF0C\u4ECD\u6709\u672A\u77E5\u7684\u529B\u91CF\u82CF\u9192\u3002"
+  - name: "\u5E7D\u5F71\u68EE\u6797"
+    english: SHADOW FOREST
+    background: background_forest
+    description: "\u6811\u5F71\u6DF1\u5904\u56DE\u8361\u7740\u53E4\u8001\u7684\u4F4E\u8BED\uFF0C\n\u8DDF\u968F\u5FAE\u5149\uFF0C\u5BFB\u627E\u88AB\u9057\u5FD8\u7684\u5951\u7EA6\u3002"
+  - name: "\u971C\u8BED\u51B0\u539F"
+    english: FROSTLAND
+    background: background_frost
+    description: "\u88AB\u6C38\u6052\u51B0\u96EA\u8986\u76D6\u7684\u5723\u5802\uFF0C\n\u6B63\u7B49\u5F85\u4E00\u9897\u8DB3\u4EE5\u878D\u5316\u5BD2\u51AC\u7684\u5FC3\u3002"
+  - name: "\u707C\u70ED\u8352\u6F20"
+    english: BURNING DESERT
+    background: background_desert
+    description: "\u70C8\u7130\u541E\u6CA1\u4E86\u6614\u65E5\u7684\u738B\u57CE\uFF0C\n\u7070\u70EC\u4E4B\u4E0B\uFF0C\u4E0D\u5C48\u7684\u610F\u5FD7\u4ECD\u5728\u71C3\u70E7\u3002"
+  - name: "\u865A\u7A7A\u4E4B\u57CE"
+    english: VOID CITY
+    background: background_void
+    description: "\u8DE8\u8D8A\u7834\u788E\u7684\u65F6\u7A7A\u8FB9\u754C\uFF0C\n\u661F\u6D77\u5C3D\u5934\uFF0C\u547D\u8FD0\u5C06\u8FCE\u6765\u6700\u540E\u7684\u6289\u62E9\u3002"
